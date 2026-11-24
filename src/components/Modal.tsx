@@ -7,10 +7,10 @@ interface Props {
   titulo: string
   descripcion?: string
   children: ReactNode
-  ancho?: 'sm' | 'md' | 'lg'
+  ancho?: 'sm' | 'md' | 'lg' | 'xl'
 }
 
-const ANCHOS = { sm: 'max-w-sm', md: 'max-w-md', lg: 'max-w-xl' }
+const ANCHOS = { sm: 'max-w-sm', md: 'max-w-md', lg: 'max-w-xl', xl: 'max-w-6xl' }
 
 /**
  * Diálogo accesible basado en <dialog>: atrapa el foco.
