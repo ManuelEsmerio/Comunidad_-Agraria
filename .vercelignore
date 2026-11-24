@@ -1,0 +1,8 @@
+# Nunca subir datos personales ni secretos
+importacion/
+.env
+.env.*
+!.env.example
+node_modules
+dist
+docs
